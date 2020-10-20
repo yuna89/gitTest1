@@ -1,0 +1,53 @@
+* 선생님 블로그 젤 위에 GIT 눌러서 설명 읽기
+https://blog.naver.com/drv98/221671955710
+
+
+git 사이트 들어가서
+1.  다운로드: "Latest source Release
+2.29.0
+Release Notes (2020-10-19)
+Download 2.29.0 for Windows" ( 아님 공유폴더에 git  올려져있음)
+2. 계속 next 하다가 설치
+3. 화면에 마우스로 왼쪽 눌러서 git bASH 나오면 성공적으로 다운
+4. 바탕화면에 GIT TEST 파일 만들기
+5.파일에 오른쪽 마우스 클릭하여  GIT BASH HIER 누르기
+6. admin@DESKTOP-6DKKCU4 MINGW64 ~/Desktop/GIT TEST
+$ PWD (PWD 누르면 저장된 위치 나타남)
+
+7. 사용자 정보 설정하기
+admin@DESKTOP-6DKKCU4 MINGW64 ~/Desktop/GIT TEST
+$ PWD (잘 저장 되어있는지 확인된것)
+/c/Users/admin/Desktop/GIT TEST
+
+admin@DESKTOP-6DKKCU4 MINGW64 ~/Desktop/GIT TEST
+$ git config --global user.name "github1" (아무 아이디 넣기)
+
+admin@DESKTOP-6DKKCU4 MINGW64 ~/Desktop/GIT TEST
+$ git init (한번은 초기화 해야함)
+Initialized empty Git repository in C:/Users/admin/Desktop/GIT TEST/.git/
+
+admin@DESKTOP-6DKKCU4 MINGW64 ~/Desktop/GIT TEST (master)
+$
+
+
+8. git test 파일에서 
+index.html 과 style.css 메모장 파일을 2개 만듬.
+
+9. index.html 눌러서 [보기] 눌러서 [파일 확장자] 누르고
+
+10. $ git add. 눌러서 엔터- git status- git commit
+new fiel 초록색으로 나오면 잘 설치 된것.
+
+
+ㄱ. git init(초기화)
+ㄴ. git add(추가)
+ㄷ. git commit(저장)
+ㄹ. git check out --. (되돌리기)
+===========================================================
+깃허브에 올려보기
+1. github.com  에서 가입
+2. 가입 후 맨 오른쪽 위 플러스 눌리고
+이름; git Test1, Description (optiona): git 테스트용 
+3. …or push an existing repository from the command line 
+밑에꺼 복사한 다음에
+4. 3줄을 각각 복사한 다음 git test 에 넣어서 엔터
